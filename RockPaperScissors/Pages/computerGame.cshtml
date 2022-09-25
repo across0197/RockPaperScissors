@@ -1,0 +1,21 @@
+﻿@page
+@model RockPaperScissors.Pages.computerGameModel
+@{
+}
+
+<div class="container">
+	<div class="centre-Txt">
+		<div class="msg-container">		
+			<h2>Computer vs. Computer Mode Active.</h2>
+		</div>
+	</div>
+	<br/>
+	<div class="choice-form">
+		<form id="userChoice" method="post">
+			<div class="btn-container">
+				<input id="btnSubmitChoice" type="submit" class="set-up-buttons" value="Generate Result" asp-area="" asp-page-handler="Choice" />
+			</div>
+		</form>
+	</div>
+	<br />
+</div>

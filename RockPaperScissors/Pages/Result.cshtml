@@ -1,0 +1,50 @@
+﻿@page
+@model RockPaperScissors.Pages.ResultModel
+@{
+}
+
+<div class="container">
+	<div class="result-msg">
+		<h2>Results</h2>
+		@if (@RockPaperScissors.Globals.selectedMode == "user")
+		{
+			<p>The computer chose: @RockPaperScissors.Globals.computerChoice</p>
+			<br />
+			if (@RockPaperScissors.Globals.lastResult == "win")
+			{
+				<p>Congratulations! You've won!</p>
+			}
+			else if (@RockPaperScissors.Globals.lastResult == "draw")
+			{
+				<p>It's a draw!</p>
+			}
+			else
+			{
+				<p>Commiserations, The Computer wins!</p>
+			}
+		}
+		else
+		{
+			<p>Computer 1 chose: @RockPaperScissors.Globals.computerChoice</p>
+			<br />
+			<p>Computer 2 chose: @RockPaperScissors.Globals.computer2Choice</p>
+			<br />
+			if (@RockPaperScissors.Globals.lastResult == "win")
+			{
+				<p>Computer 1 wins!</p>
+			}
+			else if (@RockPaperScissors.Globals.lastResult == "draw")
+			{
+				<p>It's a draw!</p>
+			}
+			else
+			{
+				<p>Computer 2 wins!</p>
+			}
+		}
+		<div>
+			<br />
+			<p>Click the 'Home' button on the navigation bar to return home, or click 'Statistics' to view your progress.</p>
+		</div>
+	</div>
+</div>

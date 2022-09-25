@@ -1,0 +1,125 @@
+﻿body {
+}
+
+.container {
+    font-family: 'Microsoft Sans Serif';
+    font-size: 16px;
+}
+
+#mainNav {
+    font-family: 'Microsoft Sans Serif';
+    background-color: lightsteelblue;
+    height: 50px;
+}
+
+.navigationButtons {
+    display:inline-block;
+    color: black;
+    text-decoration: none;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    height: 50px;
+    width: 200px;
+    font-size:18px;
+    line-height:50px;
+}
+
+.navigationButtons:hover{
+    background-color:lightgrey;
+}
+
+.mode-buttons {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 60px;
+    width: 275px;
+    font-size: 18px;
+    line-height: 60px;
+    border: solid 1px;
+    border-radius: 2px;
+}
+
+.mode-buttons:hover {
+    background-color: lightgrey;
+}
+
+.set-up-form {
+    text-align: center;
+}
+
+.centre-Txt{
+    font-family: 'Microsoft Sans Serif';
+    font-size: 16px;
+    text-align: center;
+}
+
+.set-up-buttons {
+    font-family: 'Microsoft Sans Serif';
+    font-size: 18px;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+    height: 60px;
+    width: 275px;
+    margin: auto;
+    background-color: forestgreen;
+    border: none;
+    border-radius: 3px;
+}
+
+.set-up-buttons:hover {
+    background-color: #64a264;
+}
+
+.finish-button {
+    font-family: 'Microsoft Sans Serif';
+    font-size: 18px;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+    height: 60px;
+    width: 275px;
+    margin: auto;
+    background-color: forestgreen;
+    border: none;
+    border-radius: 3px;
+}
+
+.finish-button:hover {
+    background-color: #64a264;
+}
+
+.set-up-form {
+    font-family: 'Microsoft Sans Serif';
+    font-size: 16px;
+}
+
+.start-game-container {
+    font-family: 'Microsoft Sans Serif';
+    font-size: 16px;
+}
+
+.choicesContainer {
+    text-align:center;
+    justify-content: center;
+}
+
+.result-msg {
+    text-align:center;
+    font-size:16px;
+}

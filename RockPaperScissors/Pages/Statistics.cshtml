@@ -1,0 +1,15 @@
+﻿@page
+@model RockPaperScissors.Pages.StatisticsModel
+@{
+}
+
+<div class="container">
+	<div class="stats-section">
+		<h2>Statistics</h2>
+		<p>You have played @Model.noOfGamesPlayed Game(s)!</p>
+		<br />
+		<p>You have won @Model.noOfUserWins Game(s)!</p>
+		<br />
+		<p>That's a win percentage of: @Model.winPercentage %</p>
+	</div>
+</div>

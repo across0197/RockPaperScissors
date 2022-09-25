@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/css/StyleSheet.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav id="mainNav" class="navigation">
+            <div class="container">
+                <a id="btnHome" class="navigationButtons" asp-area="" asp-page="/Index">Home</a>
+                <a id="btnStats" class="navigationButtons" asp-area="" asp-page="/Statistics">Statistics</a>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main">
+            @RenderBody()
+        </main>   
+    </div>
+</body>
+</html>

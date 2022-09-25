@@ -1,0 +1,37 @@
+﻿@page
+@model RockPaperScissors.Pages.playGameModel
+@{
+}
+
+<div class="container">
+	<div class="centre-Txt">
+		<div class="msg-container">		
+			<h2>Player vs. Computer Mode Active.</h2>
+		</div>
+	</div>
+	<br/>
+	<div class="choice-form">
+		<form id="userChoice" method="post">
+			<div class="choice-radio-btns" style="text-align:center">
+				<input type="radio" id="rockBtn" name="userChoice" value="rock" asp-for="gameSession.userChoice" checked />
+				<label for="rockBtn">Rock</label>
+				<br />
+				<br />
+				<input type="radio" id="paperBtn" name="userChoice" value="paper" asp-for="gameSession.userChoice" />
+				<label for="paperBtn">Paper</label>
+				<br />
+				<br />
+				<input type="radio" id="scissorsBtn" name="userChoice" value="scissors" asp-for="gameSession.userChoice" />
+				<label for="scissorsBtn">Scissors</label>
+				<br />
+				<br />
+			</div>
+			<div class="btn-container">
+				<br />
+				<br />
+				<input id="btnSubmitChoice" type="submit" class="set-up-buttons" value="Submit Choice" asp-area="" asp-page-handler="Choice" />
+			</div>
+		</form>
+	</div>
+	<br />
+</div>
